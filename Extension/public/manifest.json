@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "SyncNwatch",
+  "version": "1.0.0",
+  "description": "Websocket based lightweight minimal video sync",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "tabs", "scripting", "storage"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "minimum_chrome_version": "116"
+}
