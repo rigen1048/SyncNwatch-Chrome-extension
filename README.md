@@ -19,9 +19,8 @@ Play/pause, seek, speed — near-perfect sync with absolute state enforcement an
 
 ## Demo
 
-[Watch quick demo →](https://www.youtube.com/watch?v=example-sync-demo)
+https://github.com/user-attachments/assets/8c4a72a3-95cb-42cf-8578-5165c087ad2d
 
-<!-- Replace with real link or embed GitHub-hosted MP4/GIF when ready -->
 
 ## Quick Setup
 
